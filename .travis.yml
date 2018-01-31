@@ -24,4 +24,4 @@ before_script:
   - google-chrome --version
 
 ## Run Integration tests
-script: "mvn -Denv=chrome verify"
+script: "mvn test && mvn -Denv=chrome verify"
