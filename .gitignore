@@ -1,0 +1,9 @@
+### JetBrains template
+.idea/
+*.iml
+
+### Generated
+target/
+
+### Drivers
+chromedriver
